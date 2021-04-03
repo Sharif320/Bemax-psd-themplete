@@ -55,6 +55,10 @@ a:focus,
 	text-decoration: none;
 	outline: none;
 }
+a{
+	text-decoration: none;
+	transition: all linear .3s;
+}
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -62,11 +66,7 @@ a:hover,
 	color: #2B96CC;
 	text-decoration: none;
 }
-a,
-button {
-	color: #1696e7;
-	outline: medium none;
-}
+
 button:focus,input:focus,input:focus,textarea,textarea:focus{
 	outline: 0
 }
@@ -259,9 +259,108 @@ label {
 .container{
 	max-width: 1170px;
 }
+#header-area{
+    border-top: 5px solid #4272d7;
+}
+#header-area .navbar{}
+#header-area .navbar {
+    /* margin-top: 0px; */
+    padding-top: 0px;
+}
+.navbar .navbar-brand{}
+.navbar .navbar-brand img{
+    line-height: 1;
+}
+.navbar .collapse{}
+.navbar .collapse .navbar-nav{}
+.navbar .collapse .navbar-nav li{
+    margin-left: 40px;
+    position: relative;
+}
+.navbar .collapse .navbar-nav li a{
+    display: block;
+    padding: 43px 0px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: 400;
+	transition: all linear .3s;
+}
+.navbar .collapse .navbar-nav li a:hover{}
+.navbar .collapse .navbar-nav li:hover a{
+	color: #4272d7;
+}
 
+.navbar .collapse .navbar-nav li .submenu{
+    position: absolute;
+    top: 100%;
+    width: 260px;
+    background-color: darkslategray;
+    border-top: 4px solid #4272d7;
+    border-radius: 5px;
+    visibility: hidden;
+	opacity: 0;
+	transition: all linear .3s;
+	transform-origin: top;
+	transform: scaleY(0);
+	
+}
+.navbar .collapse .navbar-nav li .submenu li{
+    margin: 0;
+    border-bottom: 1px solid gray;
+}
+.navbar .collapse .navbar-nav li .submenu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+.navbar .collapse .navbar-nav li .submenu li a:hover{
+    background-color: #4272d7;
+	padding-left: 30px;
+}
+.navbar .collapse .navbar-nav  li:hover .submenu{
+visibility: visible;
+opacity: 1;
+transform: scaleY(1);
 
+	
+}
+.navbar .collapse .navbar-nav li .submenu li{
+	position: relative;
+}
+.navbar .collapse .navbar-nav li .submenu li ul.submenu{
+	position: absolute;
+	top: -1px;
+	left: 100%;
+	border-top: none;
+	border-radius: 0px;
+	visibility: hidden;
+	opacity: 0;
+}
+.navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
+	opacity: 1;
+	visibility: visible;
+}
+.navbar .collapse .navbar-nav li .submenu li ul li:hover{
+	border-left: 1px solid white;
+}
+.navbar .collapse .navbar-nav li .submenu li:hover>a{
+	background-color: #4272d7;
+	
+}
+.header-search {
+    margin-left: 30px;
+    position: relative;
+    padding-left: 30px;
+}
 
+.header-search:before {content: "";
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	background-color: gray;
+	height: 15px;
+	width: 2px;
+}
 
 
 
