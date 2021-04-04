@@ -395,5 +395,23 @@ transform: scaleY(1);
 	font-size: 15px;
 }
 #slider-area .slider-active .single-slide a:hover{}
+.slider-active .owl-dots{
+    height: 10px;
+    width: 102px;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+}
+.slider-active .owl-dots .owl-dot{
+    background-color: #267da5;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+.slider-active .owl-dots .owl-dot.active{
+	background-color: #444;
+}
 /* slider area end  */
 
