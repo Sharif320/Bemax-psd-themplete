@@ -264,7 +264,7 @@ label {
 }
 #header-area .navbar{}
 #header-area .navbar {
-    /* margin-top: 0px; */
+  
     padding-top: 0px;
 }
 .navbar .navbar-brand{}
@@ -330,19 +330,19 @@ transform: scaleY(1);
 .navbar .collapse .navbar-nav li .submenu li ul.submenu{
 	position: absolute;
 	top: -1px;
-	left: 100%;
-	border-top: none;
-	border-radius: 0px;
+	left: 101%;
+	/* border-top: none; */
+	border-radius: 25px;
 	visibility: hidden;
 	opacity: 0;
+	border-radius: 4px;
 }
 .navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
 	opacity: 1;
 	visibility: visible;
+	/* border-radius: 15px; */
 }
-.navbar .collapse .navbar-nav li .submenu li ul li:hover{
-	border-left: 1px solid white;
-}
+
 .navbar .collapse .navbar-nav li .submenu li:hover>a{
 	background-color: #4272d7;
 	
@@ -362,5 +362,38 @@ transform: scaleY(1);
 	width: 2px;
 }
 
+/* header area css end  */
 
+/* slider area start  */
+#slider-area{}
+#slider-area .slider-active{}
+#slider-area .slider-active .single-slide{
+    padding: 175px 0px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+#slider-area .slider-active .single-slide h4{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+#slider-area .slider-active .single-slide h2{
+    font-size: 72px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#slider-area .slider-active .single-slide a{
+	padding: 20px 45px;
+	color: white;
+	background-color: #4272d7;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+#slider-area .slider-active .single-slide a:hover{}
+/* slider area end  */
 

@@ -38,13 +38,17 @@ function mainSlider() {
 		doAnimations($animatingElements);
 	});
 	BasicSlider.slick({
-		autoplay: false,
-		autoplaySpeed: 10000,
+		autoplay: true,
+		dots:true,
+		autoplaySpeed: 1000,
 		dots: false,
 		fade: true,
 		arrows: false,
 		responsive: [
-			{ breakpoint: 767, settings: { dots: false, arrows: false } }
+			{ breakpoint: 767, settings: { dots: false, arrows: false,
+			autoplay:true,
+			dots:true
+		} }
 		]
 	});
 
