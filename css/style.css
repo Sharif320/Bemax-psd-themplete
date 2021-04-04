@@ -124,13 +124,7 @@ ul {
 li {
 	list-style: none
 }
-p {
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 24px;
-	color: #7e7e7e;
-	margin-bottom: 15px;
-}
+
 hr {
 	border-bottom: 1px solid #eceff8;
 	border-top: 0 none;
@@ -298,11 +292,11 @@ label {
     border-top: 4px solid #4272d7;
     border-radius: 5px;
     visibility: hidden;
-	opacity: 0;
-	transition: all linear .3s;
-	transform-origin: top;
-	transform: scaleY(0);
-	
+    opacity: 0;
+    transition: all linear .3s;
+    transform-origin: top;
+    transform: scaleY(0);
+    z-index: 999999;
 }
 .navbar .collapse .navbar-nav li .submenu li{
     margin: 0;
@@ -366,7 +360,9 @@ transform: scaleY(1);
 
 /* slider area start  */
 #slider-area{}
-#slider-area .slider-active{}
+#slider-area .slider-active{
+    margin-bottom: -10px;
+}
 #slider-area .slider-active .single-slide{
     padding: 175px 0px;
     background-repeat: no-repeat;
@@ -415,3 +411,100 @@ transform: scaleY(1);
 }
 /* slider area end  */
 
+/* project area start  */
+#project-area{
+	background-color: #4272d7;
+	padding: 50px 0px;
+}
+.project-content{
+	
+}
+.project-content p{
+
+font-size: 18px;
+
+color: white;
+
+line-height: 2;
+
+font-weight: 600;
+
+/* margin-bottom: 0px !important; */
+
+margin: 0px;
+}
+.project-content p span{
+
+font-size: 30px;
+
+font-weight: 700;
+}
+.project-link{
+    text-align: end;
+}
+.project-link a{
+    color: white;
+    padding: 20px 45px;
+    border: 3px solid white;
+    line-height: 1;
+    display: inline-block;
+}
+
+
+/* project area end  */
+
+/* features area start  */
+#features-area{
+    padding: 70px 0px;
+}
+.features-content{
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+}
+.features-content .features-image{}
+.features-content .features-image img{
+    width: 100%;
+    height: 100%;
+}
+.features-content .features-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4272d7;
+    /* bottom: 0; */
+    padding: 30px 30px;
+    transform: translateY(70%);
+    transition: all linear .6s;
+}
+.features-content .features-text span{}
+.features-content .features-text span i{
+    color: white;
+    font-size: 30px;
+}
+.features-content .features-text h4{
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.features-content .features-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.features-content .features-text a{
+    color: white;
+    /* display: inline-block; */
+    display: block;
+}
+.features-content .features-text a i{
+    margin-right: 13px;
+}
+.features-content:hover .features-text{
+	transform: translateY(0);
+}
+/* features area end  */
