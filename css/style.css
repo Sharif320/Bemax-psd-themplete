@@ -218,10 +218,7 @@ label {
 	visibility: hidden;
 	width: 40px;
 }
-.owl-carousel .owl-nav div.owl-next {
-	left: auto;
-	right: 20px;
-}
+
 .owl-carousel:hover .owl-nav div {
 	opacity: 1;
 	visibility: visible;
@@ -408,6 +405,10 @@ transform: scaleY(1);
 }
 .slider-active .owl-dots .owl-dot.active{
 	background-color: #444;
+}
+#slider-area .owl-carousel .owl-nav div.owl-next {
+	left: auto;
+	right: 20px;
 }
 /* slider area end  */
 
@@ -641,5 +642,17 @@ margin: auto;
 #latest-project .project-wrapper:hover .project-content1{
 	visibility: visible;
 	opacity: 1;
+}
+.project-active .owl-next{
+	left: auto;
+    right: -19px;
+}
+#latest-project .owl-carousel .owl-nav div.owl-next {
+	left: auto;
+	right: -21px;
+}
+#latest-project .owl-carousel .owl-nav div.owl-prev {
+	right: auto;
+	left: -21px;
 }
 /* latest project area end  */
