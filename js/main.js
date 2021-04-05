@@ -72,7 +72,7 @@ $(window).on('scroll', function () {
 
 
 // owlCarousel
-$('.owl-carousel').owlCarousel({
+$('.slider-active').owlCarousel({
     loop:true,
     margin:0,
 	items:3,
@@ -94,6 +94,33 @@ $('.owl-carousel').owlCarousel({
         },
         992:{
             items:1,
+			dots:true
+        }
+    }
+})
+// project slider 
+$('.project-active').owlCarousel({
+    loop:true,
+    margin:0,
+
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    nav:true,
+	dots:true,
+	autoplay:true,
+	autoplaySpeed:1000,
+	animationIn:true,
+	animationOut:true,
+
+	
+    responsive:{
+        0:{
+            items:1
+        },
+        767:{
+            items:1
+        },
+        992:{
+            items:4,
 			dots:true
         }
     }
