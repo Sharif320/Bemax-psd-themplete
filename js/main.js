@@ -175,7 +175,7 @@ $('.testimonial-active').owlCarousel({
 	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     nav:true,
 	dots:true,
-	autoplay:true,
+	// autoplay:true,
 	autoplaySpeed:1000,
 	animationIn:true,
 	animationOut:true,
@@ -194,6 +194,34 @@ $('.testimonial-active').owlCarousel({
         }
     }
 })
+// client slider 
+$('.client-active').owlCarousel({
+    loop:true,
+    margin:0,
+
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    nav:true,
+	dots:true,
+	autoplay:true,
+	autoplaySpeed:1000,
+	animationIn:true,
+	animationOut:true,
+
+	
+    responsive:{
+        0:{
+            items:1
+        },
+        767:{
+            items:1
+        },
+        992:{
+            items:6,
+			dots:true
+        }
+    }
+})
+
 
 
 // isotop

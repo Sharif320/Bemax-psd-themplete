@@ -802,7 +802,7 @@ margin: auto;
 	/* left: 20px; */
 	line-height: 40px;
 	/* opacity: 0; */
-	right: 0;
+	right: 243px;
 	position: absolute;
 	/* text-align: center; */
 	top: 0%;
@@ -816,4 +816,39 @@ margin: auto;
     border: 2px solid gray;
     border-radius: 50%;
 }
+.testimonial-right-active{}
+.testimonial-right{}
+.testimonial-right .services-head{
+    text-align: left;
+}
+.testimonial-right .services-head h2{}
+.testimonial-right p{
+    line-height: 25px;
+}
+.testimonial-right-inner{
+    padding-left: 35px;
+    padding-top: 18px;
+}
+.testimonial-right-inner::before{
+    content: \f10d;
+    font-family: "Font Awesome 5 Free";
+}
+.testimonial-right .testimonial-right-info{
+    display: flex;
+    margin-top: 20px;
+}
+.testimonial-right .testimonial-right-info .right-image{
+    height: 50px;
+    width: 50px;
+}
+.testimonial-right .testimonial-right-info .right-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.testimonial-right .testimonial-right-info .right-name{
+    padding-left: 15px;
+}
+.testimonial-right .testimonial-right-info .right-name h4{}
+.testimonial-right .testimonial-right-info .right-name span{}
 /* testimonial area end */
