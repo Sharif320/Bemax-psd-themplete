@@ -852,3 +852,57 @@ margin: auto;
 .testimonial-right .testimonial-right-info .right-name h4{}
 .testimonial-right .testimonial-right-info .right-name span{}
 /* testimonial area end */
+
+/* client logo start  */
+#client-logo{
+    background-color: #f2f2f2;
+    padding: 70px 0px;
+}
+ .client-active{}
+ .client-active .owl-nav {
+    display: none;
+}
+ .client-active .sigle-logo{
+    padding: 0px 34px;
+}
+ .client-active .sigle-logo img{}
+ .client-active .owl-prev{}
+ .client-active .owl-next{}
+/* client logo end  */
+
+/* footer area start  */
+#footer-area{
+    padding: 60px 0px;
+}
+.footer-inner{}
+.templete-logo{}
+.templete-logo img{}
+.footer-inner p{
+    /* padding: 25px 0px; */
+    line-height: 25px;
+    font-size: 15px;
+    margin: 25px 0px 16px 0px;
+}
+.footer-inner ul {}
+.footer-inner ul  li{
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-inner ul  li i{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: white;
+    background-color: #1b2334;
+    text-align: center;
+    line-height: 3;
+    transition: all linear .4s;
+    cursor: pointer;
+}
+.footer-inner ul  li i:hover{
+    background-color: #4272d7;
+}
+
+/* footer area end  */
