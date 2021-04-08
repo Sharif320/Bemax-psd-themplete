@@ -873,6 +873,7 @@ margin: auto;
 /* footer area start  */
 #footer-area{
     padding: 60px 0px;
+    background-color: #171a21;
 }
 .footer-inner{}
 .templete-logo{}
@@ -881,6 +882,7 @@ margin: auto;
     /* padding: 25px 0px; */
     line-height: 25px;
     font-size: 15px;
+    color: #999999;
     margin: 25px 0px 16px 0px;
 }
 .footer-inner ul {}
@@ -903,6 +905,80 @@ margin: auto;
 }
 .footer-inner ul  li i:hover{
     background-color: #4272d7;
+}
+.footer-inner2 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-inner2 ul li {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+.footer-inner2 ul li i {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.footer-inner2 ul {
+    margin-top: 19px;
+}
+.footer-inner3 h2 {
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-inner3 ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.footer-inner3 ul {
+    margin-top: 22px;
+}
+
+.footer-inner4 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-inner4 p {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.footer-inner4 input {
+    margin-top: 30px;
+    padding: 15px 0px 15px 6px;
+    display: inline-block;
+    background-color: #2f3138;
+    margin-right: -3px;
+    border: none;
+}
+.footer-inner4 input[placeholder]{
+    color: white;
+}
+
+.footer-inner4 a {
+    background-color: blue;
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+}
+
+.footer-inner4 {
+    /* border: 1px solid gray; */
 }
 
 /* footer area end  */
