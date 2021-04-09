@@ -10,6 +10,7 @@
 /* header area css here  */
 .container{
 	
+max-width: 960px;
 }
 #header-area{
     
@@ -87,12 +88,15 @@
 }
 #slider-area .slider-active .single-slide h4{
    
+font-size: 20px;
 }
 #slider-area .slider-active .single-slide h2{
   
+font-size: 49px;
 }
 #slider-area .slider-active .single-slide a{
 	
+padding: 15px 30px;
 }
 #slider-area .slider-active .single-slide a:hover{}
 .slider-active .owl-dots{
@@ -466,7 +470,7 @@
 
 
 .footer-inner4 a {
-  ;
+  
 }
 
 .footer-inner4 {
@@ -490,18 +494,1429 @@
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .container{
+	
+  }
+  #header-area{
+      
+  }
+  #header-area .navbar{}
+  #header-area .navbar {
+    
+  
+  }
+  .navbar .navbar-brand{}
+  .navbar .navbar-brand img{
+      
+  }
+  .navbar .collapse{}
+  .navbar .collapse .navbar-nav{}
+  .navbar .collapse .navbar-nav li{
+     
+  }
+  .navbar .collapse .navbar-nav li a{
+      
+  }
+  .navbar .collapse .navbar-nav li a:hover{}
+  .navbar .collapse .navbar-nav li:hover a{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li a{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li a:hover{
+     
+  }
+  .navbar .collapse .navbar-nav  li:hover .submenu{
+  
+  
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li ul.submenu{
+  
+  }
+  .navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu li:hover>a{
+    
+    
+  }
+  .header-search {
+     
+  }
+  
+  .header-search:before { 
+  
+  }
+  
+  /* header area css end  */
+  
+  /* slider area start  */
+  #slider-area{}
+  #slider-area .slider-active{
+     
+  }
+  #slider-area .slider-active .single-slide{
+    
+  }
+  #slider-area .slider-active .single-slide h4{
+     
+  }
+  #slider-area .slider-active .single-slide h2{
+    
+  }
+  #slider-area .slider-active .single-slide a{
+    
+  }
+  #slider-area .slider-active .single-slide a:hover{}
+  .slider-active .owl-dots{
+   
+  }
+  .slider-active .owl-dots .owl-dot{
+    
+  }
+  .slider-active .owl-dots .owl-dot.active{
+  
+  }
+  #slider-area .owl-carousel .owl-nav div.owl-next {
+    
+  }
+  /* slider area end  */
+  
+  /* project area start  */
+  #project-area{
+    
+  }
+  .project-content{
+    
+  }
+  .project-content p{
+  
+  
+  }
+  .project-content p span{
+  
+  
+  }
+  .project-link{
+    
+  }
+  .project-link a{
+   
+  }
+  
+  
+  /* project area end  */
+  
+  /* features area start  */
+  #features-area{
+  
+  }
+  .features-content{
+     
+  }
+  .features-content .features-image{
+     
+  }
+  .features-content .features-image img{
+     
+  }
+  .features-content .features-text{
+   
+  }
+  .features-content .features-text span{}
+  .features-content .features-text span i{
+  
+  }
+  .features-content .features-text h4{
+   
+  }
+  .features-content .features-text p{
+   
+  }
+  .features-content .features-text a{
+   
+  }
+  .features-content .features-text a i{
+     
+  }
+  .features-content:hover .features-text{
+    
+  }
+  /* features area end  */
+  
+  /* services area start  */
+  #services-area{
+     
+  }
+   .services-head{
+    
+  }
+   .services-head h2{
+      
+  }
+   .services-head h2::before{
+  
+  
+  }
+  .services-wrapper{
+    
+  }
+  #services-area .services-content{
+    
+  }
+  #services-area .services-content .services-icon{}
+  #services-area .services-content .services-icon i{
+    
+  }
+  #services-area .services-content .services-text{
+     
+  }
+  #services-area .services-content .services-text h4{
+   
+  }
+  #services-area .services-content .services-text p{
+  
+  }
+  /* services area end  */
+  
+  /* latest project area start  */
+  #latest-project{
+      
+  }
+  .project-active{
+    
+  }
+  #latest-project .services-head{}
+  #latest-project .services-head h2{
+     
+  }
+  #latest-project .project-wrapper{
+     
+  }
+  #latest-project .project-image{
+     
+  }
+  #latest-project .project-image img{
+   
+  }
+  #latest-project .project-content1{
+  
+  }
+  #latest-project .project-content1 h4{
+    
+  }
+  #latest-project .project-content1 p{
+      
+  }
+  #latest-project .project-wrapper:hover .project-content1{
+    
+  }
+  .project-active .owl-next{
+    
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-next {
+  
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-prev {
+  
+  }
+  /* latest project area end  */
+  
+  /* choose us section start  */
+  #choose-area{
+     
+  }
+  .video-wrapper{
+  
+  }
+  #choose-area .video-popup-content{
+     
+  }
+  #choose-area .video-popup-content img{
+     
+  }
+  #choose-area .video-popup-content .popup-video{
+  
+  }
+  #choose-area .video-popup-content .popup-video i{
+    
+  }
+  #choose-area .video-popup-content .popup-video:hover i{
+  
+  }
+  .video-content{}
+  .video-content .video-title{}
+  .video-content .video-title i{
+      
+  }
+  .video-content .video-title h5{
+    
+  }
+  .video-content .video-title p{
+   
+  }
+  .video-inner {
+    
+  }
+  /* choose us section end */
+  
+  /* work with start  */
+  #work-with{
+     
+  }
+  #work-with .work-wrapper{
+  
+  }
+  #work-with .work-wrapper .services-head{
+     
+  }
+  #work-with .work-wrapper .services-head h2{
+   
+  }
+  #work-with .work-wrapper .services-head h2::after{
+    
+  }
+  #work-with .work-wrapper p{
+      
+  }
+  #work-with .work-wrapper a{
+  
+  }
+  #work-with .work-wrapper a:hover{}
+  /* work with end  */
+  /* testimonial area start  */
+  #testimonial-area{
+  
+  }
+  .testimonial-active{}
+  .testimonial-left{}
+  .testimonial-left .services-head{
+  
+  }
+  .testimonial-left .services-head h2{}
+  .testimonial-left .testimonai-left-inner{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image img{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay{
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay span{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content h4{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content p{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span {
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span i{}
+  .testimonial-active  .owl-nav  {
+    
+  }
+  .testimonial-active .owl-prev{
+     
+  }
+  .testimonial-active .owl-next{
+     
+  }
+  .testimonial-right-active{}
+  .testimonial-right{}
+  .testimonial-right .services-head{
+   
+  }
+  .testimonial-right .services-head h2{}
+  .testimonial-right p{
+      
+  }
+  .testimonial-right-inner{
+     
+  }
+  .testimonial-right-inner::before{
+     
+  }
+  .testimonial-right .testimonial-right-info{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image img{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-name{
+      
+  }
+  .testimonial-right .testimonial-right-info .right-name h4{}
+  .testimonial-right .testimonial-right-info .right-name span{}
+  /* testimonial area end */
+  
+  /* client logo start  */
+  #client-logo{
+     
+  }
+   .client-active{}
+   .client-active .owl-nav {
+      
+  }
+   .client-active .sigle-logo{
+      
+  }
+   .client-active .sigle-logo img{}
+   .client-active .owl-prev{}
+   .client-active .owl-next{}
+  /* client logo end  */
+  
+  /* footer area start  */
+  #footer-area{
+     
+  }
+  .footer-inner{}
+  .templete-logo{}
+  .templete-logo img{}
+  .footer-inner p{
+  
+  }
+  .footer-inner ul {}
+  .footer-inner ul  li{
+    
+  }
+  .footer-inner ul  li i{
+   
+  }
+  .footer-inner ul  li i:hover{
+     
+  }
+  .footer-inner2 h2 {
+   
+  }
+  
+  .footer-inner2 ul li {
+    
+  }
+  
+  .footer-inner2 ul li i {
+    
+  }
+  
+  .footer-inner2 ul {
+    
+  }
+  .footer-inner3 h2 {
+     
+  }
+  
+  .footer-inner3 ul li {
+  
+  }
+  
+  .footer-inner3 ul {
+     
+  }
+  
+  .footer-inner4 h2 {
+   
+  }
+  
+  .footer-inner4 p {
+   
+  }
+  
+  .footer-inner4 input {
+     
+  }
+  
+  
+  .footer-inner4 a {
+    
+  }
+  
+  .footer-inner4 {
+      /* border: 1px solid gray; */
+  }
+  .footer-copyright p {
+    
+  }
+  
+  .footer-copyright {
+    
+  }
 
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
+  .container{
+	
+  }
+  #header-area{
+      
+  }
+  #header-area .navbar{}
+  #header-area .navbar {
+    
+  
+  }
+  .navbar .navbar-brand{}
+  .navbar .navbar-brand img{
+      
+  }
+  .navbar .collapse{}
+  .navbar .collapse .navbar-nav{}
+  .navbar .collapse .navbar-nav li{
+     
+  }
+  .navbar .collapse .navbar-nav li a{
+      
+  }
+  .navbar .collapse .navbar-nav li a:hover{}
+  .navbar .collapse .navbar-nav li:hover a{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li a{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li a:hover{
+     
+  }
+  .navbar .collapse .navbar-nav  li:hover .submenu{
+  
+  
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li ul.submenu{
+  
+  }
+  .navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu li:hover>a{
+    
+    
+  }
+  .header-search {
+     
+  }
+  
+  .header-search:before { 
+  
+  }
+  
+  /* header area css end  */
+  
+  /* slider area start  */
+  #slider-area{}
+  #slider-area .slider-active{
+     
+  }
+  #slider-area .slider-active .single-slide{
+    
+  }
+  #slider-area .slider-active .single-slide h4{
+     
+  }
+  #slider-area .slider-active .single-slide h2{
+    
+  }
+  #slider-area .slider-active .single-slide a{
+    
+  }
+  #slider-area .slider-active .single-slide a:hover{}
+  .slider-active .owl-dots{
+   
+  }
+  .slider-active .owl-dots .owl-dot{
+    
+  }
+  .slider-active .owl-dots .owl-dot.active{
+  
+  }
+  #slider-area .owl-carousel .owl-nav div.owl-next {
+    
+  }
+  /* slider area end  */
+  
+  /* project area start  */
+  #project-area{
+    
+  }
+  .project-content{
+    
+  }
+  .project-content p{
+  
+  
+  }
+  .project-content p span{
+  
+  
+  }
+  .project-link{
+    
+  }
+  .project-link a{
+   
+  }
+  
+  
+  /* project area end  */
+  
+  /* features area start  */
+  #features-area{
+  
+  }
+  .features-content{
+     
+  }
+  .features-content .features-image{
+     
+  }
+  .features-content .features-image img{
+     
+  }
+  .features-content .features-text{
+   
+  }
+  .features-content .features-text span{}
+  .features-content .features-text span i{
+  
+  }
+  .features-content .features-text h4{
+   
+  }
+  .features-content .features-text p{
+   
+  }
+  .features-content .features-text a{
+   
+  }
+  .features-content .features-text a i{
+     
+  }
+  .features-content:hover .features-text{
+    
+  }
+  /* features area end  */
+  
+  /* services area start  */
+  #services-area{
+     
+  }
+   .services-head{
+    
+  }
+   .services-head h2{
+      
+  }
+   .services-head h2::before{
+  
+  
+  }
+  .services-wrapper{
+    
+  }
+  #services-area .services-content{
+    
+  }
+  #services-area .services-content .services-icon{}
+  #services-area .services-content .services-icon i{
+    
+  }
+  #services-area .services-content .services-text{
+     
+  }
+  #services-area .services-content .services-text h4{
+   
+  }
+  #services-area .services-content .services-text p{
+  
+  }
+  /* services area end  */
+  
+  /* latest project area start  */
+  #latest-project{
+      
+  }
+  .project-active{
+    
+  }
+  #latest-project .services-head{}
+  #latest-project .services-head h2{
+     
+  }
+  #latest-project .project-wrapper{
+     
+  }
+  #latest-project .project-image{
+     
+  }
+  #latest-project .project-image img{
+   
+  }
+  #latest-project .project-content1{
+  
+  }
+  #latest-project .project-content1 h4{
+    
+  }
+  #latest-project .project-content1 p{
+      
+  }
+  #latest-project .project-wrapper:hover .project-content1{
+    
+  }
+  .project-active .owl-next{
+    
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-next {
+  
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-prev {
+  
+  }
+  /* latest project area end  */
+  
+  /* choose us section start  */
+  #choose-area{
+     
+  }
+  .video-wrapper{
+  
+  }
+  #choose-area .video-popup-content{
+     
+  }
+  #choose-area .video-popup-content img{
+     
+  }
+  #choose-area .video-popup-content .popup-video{
+  
+  }
+  #choose-area .video-popup-content .popup-video i{
+    
+  }
+  #choose-area .video-popup-content .popup-video:hover i{
+  
+  }
+  .video-content{}
+  .video-content .video-title{}
+  .video-content .video-title i{
+      
+  }
+  .video-content .video-title h5{
+    
+  }
+  .video-content .video-title p{
+   
+  }
+  .video-inner {
+    
+  }
+  /* choose us section end */
+  
+  /* work with start  */
+  #work-with{
+     
+  }
+  #work-with .work-wrapper{
+  
+  }
+  #work-with .work-wrapper .services-head{
+     
+  }
+  #work-with .work-wrapper .services-head h2{
+   
+  }
+  #work-with .work-wrapper .services-head h2::after{
+    
+  }
+  #work-with .work-wrapper p{
+      
+  }
+  #work-with .work-wrapper a{
+  
+  }
+  #work-with .work-wrapper a:hover{}
+  /* work with end  */
+  /* testimonial area start  */
+  #testimonial-area{
+  
+  }
+  .testimonial-active{}
+  .testimonial-left{}
+  .testimonial-left .services-head{
+  
+  }
+  .testimonial-left .services-head h2{}
+  .testimonial-left .testimonai-left-inner{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image img{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay{
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay span{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content h4{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content p{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span {
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span i{}
+  .testimonial-active  .owl-nav  {
+    
+  }
+  .testimonial-active .owl-prev{
+     
+  }
+  .testimonial-active .owl-next{
+     
+  }
+  .testimonial-right-active{}
+  .testimonial-right{}
+  .testimonial-right .services-head{
+   
+  }
+  .testimonial-right .services-head h2{}
+  .testimonial-right p{
+      
+  }
+  .testimonial-right-inner{
+     
+  }
+  .testimonial-right-inner::before{
+     
+  }
+  .testimonial-right .testimonial-right-info{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image img{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-name{
+      
+  }
+  .testimonial-right .testimonial-right-info .right-name h4{}
+  .testimonial-right .testimonial-right-info .right-name span{}
+  /* testimonial area end */
+  
+  /* client logo start  */
+  #client-logo{
+     
+  }
+   .client-active{}
+   .client-active .owl-nav {
+      
+  }
+   .client-active .sigle-logo{
+      
+  }
+   .client-active .sigle-logo img{}
+   .client-active .owl-prev{}
+   .client-active .owl-next{}
+  /* client logo end  */
+  
+  /* footer area start  */
+  #footer-area{
+     
+  }
+  .footer-inner{}
+  .templete-logo{}
+  .templete-logo img{}
+  .footer-inner p{
+  
+  }
+  .footer-inner ul {}
+  .footer-inner ul  li{
+    
+  }
+  .footer-inner ul  li i{
+   
+  }
+  .footer-inner ul  li i:hover{
+     
+  }
+  .footer-inner2 h2 {
+   
+  }
+  
+  .footer-inner2 ul li {
+    
+  }
+  
+  .footer-inner2 ul li i {
+    
+  }
+  
+  .footer-inner2 ul {
+    
+  }
+  .footer-inner3 h2 {
+     
+  }
+  
+  .footer-inner3 ul li {
+  
+  }
+  
+  .footer-inner3 ul {
+     
+  }
+  
+  .footer-inner4 h2 {
+   
+  }
+  
+  .footer-inner4 p {
+   
+  }
+  
+  .footer-inner4 input {
+     
+  }
+  
+  
+  .footer-inner4 a {
+    
+  }
+  
+  .footer-inner4 {
+      /* border: 1px solid gray; */
+  }
+  .footer-copyright p {
+    
+  }
+  
+  .footer-copyright {
+    
+  }
  
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+  .container{
+	
+  }
+  #header-area{
+      
+  }
+  #header-area .navbar{}
+  #header-area .navbar {
+    
+  
+  }
+  .navbar .navbar-brand{}
+  .navbar .navbar-brand img{
+      
+  }
+  .navbar .collapse{}
+  .navbar .collapse .navbar-nav{}
+  .navbar .collapse .navbar-nav li{
+     
+  }
+  .navbar .collapse .navbar-nav li a{
+      
+  }
+  .navbar .collapse .navbar-nav li a:hover{}
+  .navbar .collapse .navbar-nav li:hover a{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+   
+  }
+  .navbar .collapse .navbar-nav li .submenu li a{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li a:hover{
+     
+  }
+  .navbar .collapse .navbar-nav  li:hover .submenu{
+  
+  
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li{
+    
+  }
+  .navbar .collapse .navbar-nav li .submenu li ul.submenu{
+  
+  }
+  .navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
+    
+  }
+  
+  .navbar .collapse .navbar-nav li .submenu li:hover>a{
+    
+    
+  }
+  .header-search {
+     
+  }
+  
+  .header-search:before { 
+  
+  }
+  
+  /* header area css end  */
+  
+  /* slider area start  */
+  #slider-area{}
+  #slider-area .slider-active{
+     
+  }
+  #slider-area .slider-active .single-slide{
+    
+  }
+  #slider-area .slider-active .single-slide h4{
+     
+  }
+  #slider-area .slider-active .single-slide h2{
+    
+  }
+  #slider-area .slider-active .single-slide a{
+    
+  }
+  #slider-area .slider-active .single-slide a:hover{}
+  .slider-active .owl-dots{
+   
+  }
+  .slider-active .owl-dots .owl-dot{
+    
+  }
+  .slider-active .owl-dots .owl-dot.active{
+  
+  }
+  #slider-area .owl-carousel .owl-nav div.owl-next {
+    
+  }
+  /* slider area end  */
+  
+  /* project area start  */
+  #project-area{
+    
+  }
+  .project-content{
+    
+  }
+  .project-content p{
+  
+  
+  }
+  .project-content p span{
+  
+  
+  }
+  .project-link{
+    
+  }
+  .project-link a{
+   
+  }
+  
+  
+  /* project area end  */
+  
+  /* features area start  */
+  #features-area{
+  
+  }
+  .features-content{
+     
+  }
+  .features-content .features-image{
+     
+  }
+  .features-content .features-image img{
+     
+  }
+  .features-content .features-text{
+   
+  }
+  .features-content .features-text span{}
+  .features-content .features-text span i{
+  
+  }
+  .features-content .features-text h4{
+   
+  }
+  .features-content .features-text p{
+   
+  }
+  .features-content .features-text a{
+   
+  }
+  .features-content .features-text a i{
+     
+  }
+  .features-content:hover .features-text{
+    
+  }
+  /* features area end  */
+  
+  /* services area start  */
+  #services-area{
+     
+  }
+   .services-head{
+    
+  }
+   .services-head h2{
+      
+  }
+   .services-head h2::before{
+  
+  
+  }
+  .services-wrapper{
+    
+  }
+  #services-area .services-content{
+    
+  }
+  #services-area .services-content .services-icon{}
+  #services-area .services-content .services-icon i{
+    
+  }
+  #services-area .services-content .services-text{
+     
+  }
+  #services-area .services-content .services-text h4{
+   
+  }
+  #services-area .services-content .services-text p{
+  
+  }
+  /* services area end  */
+  
+  /* latest project area start  */
+  #latest-project{
+      
+  }
+  .project-active{
+    
+  }
+  #latest-project .services-head{}
+  #latest-project .services-head h2{
+     
+  }
+  #latest-project .project-wrapper{
+     
+  }
+  #latest-project .project-image{
+     
+  }
+  #latest-project .project-image img{
+   
+  }
+  #latest-project .project-content1{
+  
+  }
+  #latest-project .project-content1 h4{
+    
+  }
+  #latest-project .project-content1 p{
+      
+  }
+  #latest-project .project-wrapper:hover .project-content1{
+    
+  }
+  .project-active .owl-next{
+    
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-next {
+  
+  }
+  #latest-project .owl-carousel .owl-nav div.owl-prev {
+  
+  }
+  /* latest project area end  */
+  
+  /* choose us section start  */
+  #choose-area{
+     
+  }
+  .video-wrapper{
+  
+  }
+  #choose-area .video-popup-content{
+     
+  }
+  #choose-area .video-popup-content img{
+     
+  }
+  #choose-area .video-popup-content .popup-video{
+  
+  }
+  #choose-area .video-popup-content .popup-video i{
+    
+  }
+  #choose-area .video-popup-content .popup-video:hover i{
+  
+  }
+  .video-content{}
+  .video-content .video-title{}
+  .video-content .video-title i{
+      
+  }
+  .video-content .video-title h5{
+    
+  }
+  .video-content .video-title p{
+   
+  }
+  .video-inner {
+    
+  }
+  /* choose us section end */
+  
+  /* work with start  */
+  #work-with{
+     
+  }
+  #work-with .work-wrapper{
+  
+  }
+  #work-with .work-wrapper .services-head{
+     
+  }
+  #work-with .work-wrapper .services-head h2{
+   
+  }
+  #work-with .work-wrapper .services-head h2::after{
+    
+  }
+  #work-with .work-wrapper p{
+      
+  }
+  #work-with .work-wrapper a{
+  
+  }
+  #work-with .work-wrapper a:hover{}
+  /* work with end  */
+  /* testimonial area start  */
+  #testimonial-area{
+  
+  }
+  .testimonial-active{}
+  .testimonial-left{}
+  .testimonial-left .services-head{
+  
+  }
+  .testimonial-left .services-head h2{}
+  .testimonial-left .testimonai-left-inner{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-image img{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay{
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-overlay span{
+      
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content h4{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content p{
+    
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span {
+   
+  }
+  .testimonial-left .testimonai-left-inner .testimonial-content span i{}
+  .testimonial-active  .owl-nav  {
+    
+  }
+  .testimonial-active .owl-prev{
+     
+  }
+  .testimonial-active .owl-next{
+     
+  }
+  .testimonial-right-active{}
+  .testimonial-right{}
+  .testimonial-right .services-head{
+   
+  }
+  .testimonial-right .services-head h2{}
+  .testimonial-right p{
+      
+  }
+  .testimonial-right-inner{
+     
+  }
+  .testimonial-right-inner::before{
+     
+  }
+  .testimonial-right .testimonial-right-info{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-image img{
+     
+  }
+  .testimonial-right .testimonial-right-info .right-name{
+      
+  }
+  .testimonial-right .testimonial-right-info .right-name h4{}
+  .testimonial-right .testimonial-right-info .right-name span{}
+  /* testimonial area end */
+  
+  /* client logo start  */
+  #client-logo{
+     
+  }
+   .client-active{}
+   .client-active .owl-nav {
+      
+  }
+   .client-active .sigle-logo{
+      
+  }
+   .client-active .sigle-logo img{}
+   .client-active .owl-prev{}
+   .client-active .owl-next{}
+  /* client logo end  */
+  
+  /* footer area start  */
+  #footer-area{
+     
+  }
+  .footer-inner{}
+  .templete-logo{}
+  .templete-logo img{}
+  .footer-inner p{
+  
+  }
+  .footer-inner ul {}
+  .footer-inner ul  li{
+    
+  }
+  .footer-inner ul  li i{
+   
+  }
+  .footer-inner ul  li i:hover{
+     
+  }
+  .footer-inner2 h2 {
+   
+  }
+  
+  .footer-inner2 ul li {
+    
+  }
+  
+  .footer-inner2 ul li i {
+    
+  }
+  
+  .footer-inner2 ul {
+    
+  }
+  .footer-inner3 h2 {
+     
+  }
+  
+  .footer-inner3 ul li {
+  
+  }
+  
+  .footer-inner3 ul {
+     
+  }
+  
+  .footer-inner4 h2 {
+   
+  }
+  
+  .footer-inner4 p {
+   
+  }
+  
+  .footer-inner4 input {
+     
+  }
+  
+  
+  .footer-inner4 a {
+    
+  }
+  
+  .footer-inner4 {
+      /* border: 1px solid gray; */
+  }
+  .footer-copyright p {
+    
+  }
+  
+  .footer-copyright {
+    
+  }
  
 }
