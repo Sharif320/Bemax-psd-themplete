@@ -8,6 +8,10 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 /* header area css here  */
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .container{
 	
 max-width: 960px;
@@ -85,6 +89,7 @@ max-width: 960px;
 }
 #slider-area .slider-active .single-slide{
   
+padding: 150px 0px;
 }
 #slider-area .slider-active .single-slide h4{
    
@@ -144,6 +149,7 @@ padding: 15px 30px;
 }
 .features-content{
    
+height: 250px;
 }
 .features-content .features-image{
    
@@ -178,6 +184,7 @@ padding: 15px 30px;
 /* services area start  */
 #services-area{
    
+padding: 50px 0px 0px 0px;
 }
  .services-head{
   
@@ -191,6 +198,7 @@ padding: 15px 30px;
 }
 .services-wrapper{
 	
+margin-top: 50px;
 }
 #services-area .services-content{
   
@@ -223,6 +231,11 @@ padding: 15px 30px;
 }
 #latest-project .project-wrapper{
    
+/* width: 25%; */
+   
+width: 100%;
+   
+height: 190px;
 }
 #latest-project .project-image{
    
@@ -262,9 +275,11 @@ padding: 15px 30px;
 }
 #choose-area .video-popup-content{
    
+height: 300px;
 }
 #choose-area .video-popup-content img{
    
+height: 100%;
 }
 #choose-area .video-popup-content .popup-video{
 
@@ -294,6 +309,7 @@ padding: 15px 30px;
 /* work with start  */
 #work-with{
    
+padding: 70px 0px;
 }
 #work-with .work-wrapper{
 
@@ -309,6 +325,7 @@ padding: 15px 30px;
 }
 #work-with .work-wrapper p{
     
+margin: 16px 0px;
 }
 #work-with .work-wrapper a{
 
@@ -324,15 +341,23 @@ padding: 15px 30px;
 .testimonial-left .services-head{
 
 }
+.testimonial-active.owl-carousel .owl-prev {
+  left: 61%;
+}
+.testimonial-active.owl-carousel .owl-next {
+  left: 190%;
+}
 .testimonial-left .services-head h2{}
 .testimonial-left .testimonai-left-inner{
   
 }
 .testimonial-left .testimonai-left-inner .testimonial-image{
   
+height: 123px;
 }
 .testimonial-left .testimonai-left-inner .testimonial-image img{
     
+height: 100%;
 }
 .testimonial-left .testimonai-left-inner .testimonial-overlay{
  
@@ -345,22 +370,29 @@ padding: 15px 30px;
 }
 .testimonial-left .testimonai-left-inner .testimonial-content h4{
   
+font-size: 16px;
 }
 .testimonial-left .testimonai-left-inner .testimonial-content p{
   
+line-height: 20px;
+  
+margin-bottom: 6px;
 }
 .testimonial-left .testimonai-left-inner .testimonial-content span {
  
+font-size: 13px;
 }
 .testimonial-left .testimonai-left-inner .testimonial-content span i{}
 .testimonial-active  .owl-nav  {
 	
+right: 47%;
 }
 .testimonial-active .owl-prev{
    
 }
 .testimonial-active .owl-next{
    
+right: 119px;
 }
 .testimonial-right-active{}
 .testimonial-right{}
@@ -370,6 +402,11 @@ padding: 15px 30px;
 .testimonial-right .services-head h2{}
 .testimonial-right p{
     
+font-size: 15px;
+    
+line-height: 20px;
+    
+margin-bottom: -7px;
 }
 .testimonial-right-inner{
    
@@ -389,7 +426,10 @@ padding: 15px 30px;
 .testimonial-right .testimonial-right-info .right-name{
     
 }
-.testimonial-right .testimonial-right-info .right-name h4{}
+.testimonial-right .testimonial-right-info .right-name h4{
+    font-size: 16px;
+    line-height: 1;
+}
 .testimonial-right .testimonial-right-info .right-name span{}
 /* testimonial area end */
 
@@ -418,6 +458,7 @@ padding: 15px 30px;
 .templete-logo img{}
 .footer-inner p{
 
+line-height: 21px;
 }
 .footer-inner ul {}
 .footer-inner ul  li{
@@ -425,16 +466,23 @@ padding: 15px 30px;
 }
 .footer-inner ul  li i{
  
+height: 38px;
+ 
+width: 38px;
+ 
+line-height: 37px;
 }
 .footer-inner ul  li i:hover{
    
 }
 .footer-inner2 h2 {
  
+font-size: 20px;
 }
 
 .footer-inner2 ul li {
   
+font-size: 15px;
 }
 
 .footer-inner2 ul li i {
@@ -446,10 +494,12 @@ padding: 15px 30px;
 }
 .footer-inner3 h2 {
    
+font-size: 20px;
 }
 
 .footer-inner3 ul li {
 
+font-size: 15px;
 }
 
 .footer-inner3 ul {
@@ -458,6 +508,7 @@ padding: 15px 30px;
 
 .footer-inner4 h2 {
  
+font-size: 20px;
 }
 
 .footer-inner4 p {
@@ -482,6 +533,10 @@ padding: 15px 30px;
 
 .footer-copyright {
   
+}
+.copy-right {
+  
+  overflow: hidden;
 }
 
 /* footer area end  */

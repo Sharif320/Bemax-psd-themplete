@@ -106,7 +106,7 @@ $('.project-active').owlCarousel({
 	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     nav:true,
 	dots:true,
-	autoplay:true,
+	autoplay:false,
 	autoplaySpeed:1000,
 	animationIn:true,
 	animationOut:true,
