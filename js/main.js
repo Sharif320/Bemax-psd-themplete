@@ -4,7 +4,9 @@
 // meanmenu
 $('#mobile-menu').meanmenu({
 	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
+	meanScreenWidth: "767",
+	meanMenuClose: "X",
+	meanMenuCloseSize: "18px"
 });
 
 // One Page Nav
@@ -116,8 +118,8 @@ $('.project-active').owlCarousel({
         0:{
             items:1
         },
-        767:{
-            items:1
+        768:{
+            items:2
         },
         992:{
             items:4,
@@ -185,7 +187,7 @@ $('.testimonial-active').owlCarousel({
         0:{
             items:1
         },
-        767:{
+        768:{
             items:1
         },
         992:{
@@ -212,10 +214,17 @@ $('.client-active').owlCarousel({
         0:{
             items:1
         },
-        767:{
-            items:1
+        575:{
+            items:2
+        },
+        768:{
+            items:3
         },
         992:{
+            items:5,
+			dots:true
+        },
+        1200:{
             items:6,
 			dots:true
         }

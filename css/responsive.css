@@ -551,7 +551,15 @@ font-size: 20px;
 
   .container{
 	
-  }
+max-width: 720px;
+	
+}
+#mobile-menu ul li{
+  margin-left: 23px;
+  position: relative;
+  display: inline-block;
+}
+
   #header-area{
       
   }
@@ -564,13 +572,17 @@ font-size: 20px;
   .navbar .navbar-brand img{
       
   }
-  .navbar .collapse{}
+  .navbar .collapse{
+    /* background-color: #171a21; */
+}
   .navbar .collapse .navbar-nav{}
   .navbar .collapse .navbar-nav li{
      
+margin-left: 28px;
   }
   .navbar .collapse .navbar-nav li a{
       
+padding: 15px 0px;
   }
   .navbar .collapse .navbar-nav li a:hover{}
   .navbar .collapse .navbar-nav li:hover a{
@@ -625,12 +637,15 @@ font-size: 20px;
   }
   #slider-area .slider-active .single-slide{
     
+padding: 114px 0px;
   }
   #slider-area .slider-active .single-slide h4{
      
+font-size: 19px;
   }
   #slider-area .slider-active .single-slide h2{
     
+font-size: 50px;
   }
   #slider-area .slider-active .single-slide a{
     
@@ -667,6 +682,9 @@ font-size: 20px;
   }
   .project-link{
     
+text-align: center;
+    
+margin-top: 15px;
   }
   .project-link a{
    
@@ -681,6 +699,9 @@ font-size: 20px;
   }
   .features-content{
      
+width: 80%;
+     
+margin: 15px auto;
   }
   .features-content .features-image{
      
@@ -715,6 +736,7 @@ font-size: 20px;
   /* services area start  */
   #services-area{
      
+padding: 50px 0px;
   }
    .services-head{
     
@@ -728,6 +750,7 @@ font-size: 20px;
   }
   .services-wrapper{
     
+margin-top: 40px;
   }
   #services-area .services-content{
     
@@ -753,6 +776,7 @@ font-size: 20px;
   }
   .project-active{
     
+margin: 30px 14px;
   }
   #latest-project .services-head{}
   #latest-project .services-head h2{
@@ -760,6 +784,7 @@ font-size: 20px;
   }
   #latest-project .project-wrapper{
      
+width: 92%;
   }
   #latest-project .project-image{
      
@@ -784,6 +809,7 @@ font-size: 20px;
   }
   #latest-project .owl-carousel .owl-nav div.owl-next {
   
+right: 4px;
   }
   #latest-project .owl-carousel .owl-nav div.owl-prev {
   
@@ -799,9 +825,11 @@ font-size: 20px;
   }
   #choose-area .video-popup-content{
      
+margin-bottom: 36px;
   }
   #choose-area .video-popup-content img{
      
+/* width: 100%; */
   }
   #choose-area .video-popup-content .popup-video{
   
@@ -812,7 +840,9 @@ font-size: 20px;
   #choose-area .video-popup-content .popup-video:hover i{
   
   }
-  .video-content{}
+  .video-content{
+    text-align: center;
+}
   .video-content .video-title{}
   .video-content .video-title i{
       
@@ -825,12 +855,14 @@ font-size: 20px;
   }
   .video-inner {
     
+padding: 0px 65px;
   }
   /* choose us section end */
   
   /* work with start  */
   #work-with{
      
+padding: 100px 0px;
   }
   #work-with .work-wrapper{
   
@@ -855,8 +887,11 @@ font-size: 20px;
   /* testimonial area start  */
   #testimonial-area{
   
+padding: 40px 0px;
   }
-  .testimonial-active{}
+  .testimonial-active{
+    margin-bottom: 33px;
+}
   .testimonial-left{}
   .testimonial-left .services-head{
   
@@ -873,6 +908,7 @@ font-size: 20px;
   }
   .testimonial-left .testimonai-left-inner .testimonial-overlay{
    
+bottom: -1px;
   }
   .testimonial-left .testimonai-left-inner .testimonial-overlay span{
       
@@ -950,7 +986,9 @@ font-size: 20px;
   #footer-area{
      
   }
-  .footer-inner{}
+  .footer-inner{
+    margin-bottom: 120px;
+}
   .templete-logo{}
   .templete-logo img{}
   .footer-inner p{
@@ -1502,6 +1540,22 @@ font-size: 20px;
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .mean-container a.meanmenu-reveal span {
+    
+    height: 3px;
+    margin-top: 5px;
+}
+  .mean-container a.meanmenu-reveal{
+    top: 4px;
+    padding: 4px 8px 8px 8px;
+  }
+  .mean-container a.meanclose{
+    top: 7px;
+    right: 1px;
+  }
+  .mobile-menu.mean-container {
+    width: 100%;
+  }
   .container{
 	
   }
@@ -1576,17 +1630,24 @@ font-size: 20px;
   #slider-area .slider-active{
      
   }
+  .slider-active.owl-carousel .owl-nav {
+    display: none;
+}
   #slider-area .slider-active .single-slide{
     
+padding: 100px;
   }
   #slider-area .slider-active .single-slide h4{
      
+font-size: 15px;
   }
   #slider-area .slider-active .single-slide h2{
     
+font-size: 38px;
   }
   #slider-area .slider-active .single-slide a{
     
+padding: 10px 19px;
   }
   #slider-area .slider-active .single-slide a:hover{}
   .slider-active .owl-dots{
@@ -1609,10 +1670,9 @@ font-size: 20px;
   }
   .project-content{
     
+text-align: center;
   }
   .project-content p{
-  
-  
   }
   .project-content p span{
   
@@ -1620,6 +1680,9 @@ font-size: 20px;
   }
   .project-link{
     
+text-align: center;
+    
+margin-top: 13px;
   }
   .project-link a{
    
@@ -1634,6 +1697,9 @@ font-size: 20px;
   }
   .features-content{
      
+width: 80%;
+     
+margin: 10px auto;
   }
   .features-content .features-image{
      
@@ -1684,6 +1750,9 @@ font-size: 20px;
   }
   #services-area .services-content{
     
+flex-direction: column;
+    
+align-items: center;
   }
   #services-area .services-content .services-icon{}
   #services-area .services-content .services-icon i{
@@ -1691,6 +1760,9 @@ font-size: 20px;
   }
   #services-area .services-content .services-text{
      
+text-align: center;
+     
+margin-top: 18px;
   }
   #services-area .services-content .services-text h4{
    
@@ -1713,6 +1785,9 @@ font-size: 20px;
   }
   #latest-project .project-wrapper{
      
+width: 70%;
+     
+margin: auto;
   }
   #latest-project .project-image{
      
@@ -1778,12 +1853,18 @@ font-size: 20px;
   }
   .video-inner {
     
+padding: 0px 36px;
+    
+text-align: center;
+    
+margin-top: 30px;
   }
   /* choose us section end */
   
   /* work with start  */
   #work-with{
      
+padding: 100px 0px;
   }
   #work-with .work-wrapper{
   
@@ -1817,6 +1898,7 @@ font-size: 20px;
   .testimonial-left .services-head h2{}
   .testimonial-left .testimonai-left-inner{
     
+margin-bottom: 30px;
   }
   .testimonial-left .testimonai-left-inner .testimonial-image{
     
@@ -1903,13 +1985,19 @@ font-size: 20px;
   #footer-area{
      
   }
-  .footer-inner{}
+  .footer-inner{
+    text-align: center;
+    margin-bottom: 108px;
+}
   .templete-logo{}
   .templete-logo img{}
   .footer-inner p{
   
   }
-  .footer-inner ul {}
+  .footer-inner ul {
+    width: 50%;
+    margin: auto;
+}
   .footer-inner ul  li{
     
   }

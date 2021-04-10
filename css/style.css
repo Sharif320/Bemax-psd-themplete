@@ -266,11 +266,15 @@ label {
 }
 .navbar .collapse{}
 .navbar .collapse .navbar-nav{}
-.navbar .collapse .navbar-nav li{
+#mobile-menu ul{
+    
+}
+#mobile-menu ul li{
     margin-left: 40px;
     position: relative;
+    display: inline-block;
 }
-.navbar .collapse .navbar-nav li a{
+#mobile-menu ul li a{
     display: block;
     padding: 43px 0px;
     font-size: 15px;
@@ -278,12 +282,12 @@ label {
     font-weight: 400;
 	transition: all linear .3s;
 }
-.navbar .collapse .navbar-nav li a:hover{}
-.navbar .collapse .navbar-nav li:hover a{
+#mobile-menu ul li a:hover{}
+#mobile-menu ul li:hover a{
 	color: #4272d7;
 }
 
-.navbar .collapse .navbar-nav li .submenu{
+#mobile-menu ul li .submenu{
     position: absolute;
     top: 100%;
     width: 260px;
@@ -297,30 +301,31 @@ label {
     transform: scaleY(0);
     z-index: 999999;
 }
-.navbar .collapse .navbar-nav li .submenu li{
+#mobile-menu ul li .submenu li{
     margin: 0;
     border-bottom: 1px solid gray;
 }
-.navbar .collapse .navbar-nav li .submenu li a{
+#mobile-menu ul li .submenu li a{
     display: block;
     padding: 15px 20px;
     color: white;
 }
-.navbar .collapse .navbar-nav li .submenu li a:hover{
+#mobile-menu ul li .submenu li a:hover{
     background-color: #4272d7;
 	padding-left: 30px;
 }
-.navbar .collapse .navbar-nav  li:hover .submenu{
+#mobile-menu ul  li:hover .submenu{
 visibility: visible;
 opacity: 1;
 transform: scaleY(1);
 
 	
 }
-.navbar .collapse .navbar-nav li .submenu li{
+#mobile-menu ul li .submenu li{
 	position: relative;
+	display: block;
 }
-.navbar .collapse .navbar-nav li .submenu li ul.submenu{
+#mobile-menu ul li .submenu li ul.submenu{
 	position: absolute;
 	top: -1px;
 	left: 101%;
@@ -330,13 +335,13 @@ transform: scaleY(1);
 	opacity: 0;
 	border-radius: 4px;
 }
-.navbar .collapse .navbar-nav li .submenu li:hover ul.submenu{
+#mobile-menu ul li .submenu li:hover ul.submenu{
 	opacity: 1;
 	visibility: visible;
 	/* border-radius: 15px; */
 }
 
-.navbar .collapse .navbar-nav li .submenu li:hover>a{
+#mobile-menu ul li .submenu li:hover>a{
 	background-color: #4272d7;
 	
 }
@@ -346,7 +351,8 @@ transform: scaleY(1);
     padding-left: 30px;
 }
 
-.header-search:before {content: "";
+.header-search:before {
+    content: "";
 	position: absolute;
 	top: 4px;
 	left: 0px;
