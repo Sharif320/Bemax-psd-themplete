@@ -1063,7 +1063,27 @@ bottom: -1px;
 
  
 /* small mobile :320px. */
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+
+
+
+
+  .mean-container a.meanmenu-reveal span {
+    
+    height: 3px;
+    margin-top: 5px;
+}
+  .mean-container a.meanmenu-reveal{
+    top: 4px;
+    padding: 4px 8px 8px 8px;
+  }
+  .mean-container a.meanclose{
+    top: 7px;
+    right: 1px;
+  }
+  .mobile-menu.mean-container {
+    width: 100%;
+  }
   .container{
 	
   }
@@ -1140,15 +1160,19 @@ bottom: -1px;
   }
   #slider-area .slider-active .single-slide{
     
+padding: 87px 0px;
   }
   #slider-area .slider-active .single-slide h4{
      
+font-size: 18px;
   }
   #slider-area .slider-active .single-slide h2{
     
+font-size: 30px;
   }
   #slider-area .slider-active .single-slide a{
     
+padding: 10px 16px;
   }
   #slider-area .slider-active .single-slide a:hover{}
   .slider-active .owl-dots{
@@ -1171,10 +1195,11 @@ bottom: -1px;
   }
   .project-content{
     
+text-align: center;
   }
   .project-content p{
   
-  
+font-size: 13px;
   }
   .project-content p span{
   
@@ -1182,6 +1207,9 @@ bottom: -1px;
   }
   .project-link{
     
+text-align: center;
+    
+margin-top: 19px;
   }
   .project-link a{
    
@@ -1196,6 +1224,7 @@ bottom: -1px;
   }
   .features-content{
      
+margin-bottom: 25px;
   }
   .features-content .features-image{
      
@@ -1246,13 +1275,22 @@ bottom: -1px;
   }
   #services-area .services-content{
     
+flex-direction: column;
+    
+/* text-align: center; */
+    
+align-items: center;
+    
+text-align: center;
   }
-  #services-area .services-content .services-icon{}
+  #services-area .services-content .services-icon{
+}
   #services-area .services-content .services-icon i{
     
   }
   #services-area .services-content .services-text{
      
+margin-top: 24px;
   }
   #services-area .services-content .services-text h4{
    
@@ -1275,9 +1313,11 @@ bottom: -1px;
   }
   #latest-project .project-wrapper{
      
+width: 90%;
+     
+margin: auto;
   }
   #latest-project .project-image{
-     
   }
   #latest-project .project-image img{
    
@@ -1327,7 +1367,9 @@ bottom: -1px;
   #choose-area .video-popup-content .popup-video:hover i{
   
   }
-  .video-content{}
+  .video-content{
+    text-align: center;
+}
   .video-content .video-title{}
   .video-content .video-title i{
       
@@ -1340,12 +1382,14 @@ bottom: -1px;
   }
   .video-inner {
     
+padding: 25px 20px;
   }
   /* choose us section end */
   
   /* work with start  */
   #work-with{
      
+padding: 70px 22px;
   }
   #work-with .work-wrapper{
   
@@ -1375,13 +1419,25 @@ bottom: -1px;
   .testimonial-left{}
   .testimonial-left .services-head{
   
+text-align: center;
   }
-  .testimonial-left .services-head h2{}
+  .testimonial-left .services-head h2{
+}
   .testimonial-left .testimonai-left-inner{
     
+display: flex;
+    
+flex-direction: column;
+    
+text-align: center;
+    
+/* width: 91%; */
+    
+margin: 10px auto;
   }
   .testimonial-left .testimonai-left-inner .testimonial-image{
-    
+  width: 80%;
+  margin: auto;
   }
   .testimonial-left .testimonai-left-inner .testimonial-image img{
       
@@ -1394,6 +1450,11 @@ bottom: -1px;
   }
   .testimonial-left .testimonai-left-inner .testimonial-content{
     
+/* margin-top: 34px; */
+    
+text-align: center;
+    
+margin: 41px auto;
   }
   .testimonial-left .testimonai-left-inner .testimonial-content h4{
     
@@ -1415,9 +1476,12 @@ bottom: -1px;
      
   }
   .testimonial-right-active{}
-  .testimonial-right{}
+  .testimonial-right{
+    text-align: center;
+}
   .testimonial-right .services-head{
    
+text-align: center;
   }
   .testimonial-right .services-head h2{}
   .testimonial-right p{
@@ -1431,15 +1495,18 @@ bottom: -1px;
   }
   .testimonial-right .testimonial-right-info{
      
+flex-direction: column;
   }
   .testimonial-right .testimonial-right-info .right-image{
      
+margin: auto;
   }
   .testimonial-right .testimonial-right-info .right-image img{
      
   }
   .testimonial-right .testimonial-right-info .right-name{
       
+margin-top: 16px;
   }
   .testimonial-right .testimonial-right-info .right-name h4{}
   .testimonial-right .testimonial-right-info .right-name span{}
@@ -1465,15 +1532,22 @@ bottom: -1px;
   #footer-area{
      
   }
-  .footer-inner{}
+  .footer-inner{
+    text-align: center;
+    margin-bottom: 108px;
+}
   .templete-logo{}
   .templete-logo img{}
   .footer-inner p{
   
   }
-  .footer-inner ul {}
+  .footer-inner ul {
+    width: 50%;
+    margin: auto;
+}
   .footer-inner ul  li{
     
+margin-right: 5px;
   }
   .footer-inner ul  li i{
    
@@ -1483,6 +1557,7 @@ bottom: -1px;
   }
   .footer-inner2 h2 {
    
+text-align: center;
   }
   
   .footer-inner2 ul li {
@@ -1495,9 +1570,14 @@ bottom: -1px;
   
   .footer-inner2 ul {
     
+width: 28%;
+    
+margin: 21px auto;
   }
+
   .footer-inner3 h2 {
      
+text-align: center;
   }
   
   .footer-inner3 ul li {
@@ -1506,18 +1586,26 @@ bottom: -1px;
   
   .footer-inner3 ul {
      
+width: 50%;
+     
+margin: 29px auto 0px auto;
   }
   
   .footer-inner4 h2 {
    
+text-align: center;
+   
+margin-top: 18px;
   }
   
   .footer-inner4 p {
    
+text-align: center;
   }
   
   .footer-inner4 input {
      
+/* display: inline-block; */
   }
   
   
@@ -1528,6 +1616,9 @@ bottom: -1px;
   .footer-inner4 {
       /* border: 1px solid gray; */
   }
+  .footer-contact {
+    text-align: center;
+}
   .footer-copyright p {
     
   }
@@ -1539,7 +1630,7 @@ bottom: -1px;
 }
  
 /* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .mean-container a.meanmenu-reveal span {
     
     height: 3px;
@@ -2009,6 +2100,7 @@ margin-bottom: 30px;
   }
   .footer-inner2 h2 {
    
+text-align: center;
   }
   
   .footer-inner2 ul li {
@@ -2021,9 +2113,14 @@ margin-bottom: 30px;
   
   .footer-inner2 ul {
     
+width: 28%;
+    
+margin: 21px auto;
   }
+
   .footer-inner3 h2 {
      
+text-align: center;
   }
   
   .footer-inner3 ul li {
@@ -2032,18 +2129,26 @@ margin-bottom: 30px;
   
   .footer-inner3 ul {
      
+width: 50%;
+     
+margin: 29px auto 0px auto;
   }
   
   .footer-inner4 h2 {
    
+text-align: center;
+   
+margin-top: 18px;
   }
   
   .footer-inner4 p {
    
+text-align: center;
   }
   
   .footer-inner4 input {
      
+/* display: inline-block; */
   }
   
   
@@ -2054,6 +2159,9 @@ margin-bottom: 30px;
   .footer-inner4 {
       /* border: 1px solid gray; */
   }
+  .footer-contact {
+    text-align: center;
+}
   .footer-copyright p {
     
   }
@@ -2063,3 +2171,4 @@ margin-bottom: 30px;
   }
  
 }
+

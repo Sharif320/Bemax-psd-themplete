@@ -89,7 +89,8 @@ $('.slider-active').owlCarousel({
 	
     responsive:{
         0:{
-            items:1
+            items:1,
+			nav:false
         },
         767:{
             items:1
@@ -117,6 +118,7 @@ $('.project-active').owlCarousel({
     responsive:{
         0:{
             items:1
+			
         },
         768:{
             items:2
@@ -185,7 +187,12 @@ $('.testimonial-active').owlCarousel({
 	
     responsive:{
         0:{
+            items:1,
+			nav:false
+        },
+        575:{
             items:1
+			
         },
         768:{
             items:1
